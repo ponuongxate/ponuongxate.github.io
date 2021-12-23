@@ -5,7 +5,7 @@
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
-  --font-family: "Hand","Hihi";
+  --font-family: "Hand", "Hihi";
   --font-family-header: "Hand";
 }
 
@@ -331,14 +331,6 @@ html {
   background-color: #555;
   color: white;
 }
-.bruh-text 
-  font-family: "Hihi";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 .vip-text button {
   border: none;
   outline: 0;
@@ -353,30 +345,30 @@ html {
   background-color: #555;
   color: white;
 }
-      body {
-        margin: 0;
-        font-family: "Hand";
-      }
-      .topnav {
-        overflow: hidden;
-        background-color: #333;
-      }
-      .topnav a {
-        float: left;
-        color: #ffffff;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      .topnav a:hover {
-        background-color: #007FBF;
-        color: black;
-      }
-      .topnav a.active {
-        background-color: #ff6666;
-        color: white;
-      }
+body {
+  margin: 0;
+  font-family: "Hand";
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #007FBF;
+  color: black;
+}
+.topnav a.active {
+  background-color: #ff6666;
+  color: white;
+}
 * {
   box-sizing: border-box;
 }
@@ -464,35 +456,39 @@ html {
   opacity: 1;
 }
 
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
-    @-webkit-keyframes fade {
-      from {
-        opacity: 0.4;
-      }
-      to {
-        opacity: 1;
-      }
-    }
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
-    @keyframes fade {
-      from {
-        opacity: 0.4;
-      }
-      to {
-        opacity: 1;
-      }
-    }
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
-    @media only screen and (max-width: 300px) {
-      .prev,
-      .next,
-      .text {
-        font-size: 11px;
-      }
-    }
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+.loichuc {
+  font-family: "Hihi";
+  font-size: 30px;
+}
